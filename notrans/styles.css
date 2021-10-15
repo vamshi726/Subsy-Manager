@@ -1,0 +1,67 @@
+body{
+
+background-image: linear-gradient(to bottom, #bcb6d6, #a79ce2, #9081ed, #7366f6, #4b4bff);
+height: 100vh;
+}
+
+.cpiller{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+    
+}
+
+.plus{
+    display: flex;
+    width: 6%;
+    align-items: flex-start;
+    margin-left: 80%;
+    margin-bottom: 50px;
+
+}
+
+#nosub{
+    text-align: center;    
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+.toptext{
+    font-family: 'Poppins', sans-serif,'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.fa-gear{
+    position: absolute;
+    right: 100px;  
+    width: 100px;
+    height: 120px;
+
+}
+
+button{
+
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   
+    width: 20%;
+    height: 40px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #411c99;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;         
+    padding: 10px 20px;
+
+}
