@@ -1,1 +1,0 @@
-# Subsy-Manager
