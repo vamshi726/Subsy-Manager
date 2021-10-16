@@ -126,11 +126,7 @@ const balance = document.getElementById(
   
   document.getElementById("myBtn").addEventListener("click", function() {
   //added clear function on exit
-
- const userans = alert("Do you really want clear all tracks ?")
-    if(userans ==true){
-
-  Init();
+	alert("Do you really want clear all tracks ?")
     location.replace("../notrans/index.html")
-     }
+     
   });
