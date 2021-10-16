@@ -18,9 +18,12 @@ HTML CSS Javascript Sawo Labs API. Agora API.
 <br>
 All the technologies used in developing this website is free,saving the development cost. People who wish to use this website and explore its feature it does not require internet connection which makes it affordable to everyone. It solves a huge problem and will help people in many ways. It is an efficient solution.
 <br>
+<br>
 <strong>THANK YOU</strong>
 <br>
+<br>
 <strong>Try it out</strong>
+<br>
 <br>
  https://subsy-manager.vercel.app
  https://github.com/vamshi726/Subsy-Manager/
