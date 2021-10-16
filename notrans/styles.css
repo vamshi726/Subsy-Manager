@@ -1,26 +1,93 @@
-        // document.write("<center><font size=+3 style='color: black;'>");
-        var day = new Date();
-        var hr = day.getHours();
-        if (hr >= 0 && hr < 12) {
-            document.getElementById("wish").innerHTML = "Good Morning!";
-        } else if (hr == 12) {
-            document.getElementById("wish").innerHTML = "Good Noon!"
-        } else if (hr >= 12 && hr <= 17) {
-            document.getElementById("wish").innerHTML = "Good Afternoon!";
-        } else {
-            document.getElementById("wish").innerHTML = "Good Evening!";
-        }
-      
+body{
 
+background-image: linear-gradient(to bottom, #bcb6d6, #a79ce2, #9081ed, #7366f6, #4b4bff);
+height: 110vh;
+}
 
+.cpiller{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+    
+}
 
-        document.getElementById("myBtn").addEventListener("click", function() {
-            location.replace("../transactions/index.html")
-          });
+.plus{
+    display: flex;
+    width: 6%;
+    align-items: flex-start;
+    margin-left: 80%;
+    margin-bottom: 50px;
 
-          
+}
 
-          
-        document.getElementById("vidcon").addEventListener("click", function() {
-            location.replace("https://ckutk4k3s104389idk02vauokav-1f4e0gryf-vamshi726.vercel.app/create")
-          });
+#nosub{
+    text-align: center;    
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+.toptext{
+    font-family: 'Poppins', sans-serif,'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.fa-gear{
+    position: absolute;
+    right: 100px;  
+    width: 100px;
+    height: 120px;
+
+}
+
+button{
+
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   
+    width: 20%;
+    height: 40px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #411c99;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;         
+    padding: 10px 20px;
+
+}
+
+.videopng{
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+    margin-left: 80%;
+}
+
+#vidcon{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   
+    width: 100px;
+    height: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #1b6418;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;         
+    padding: 10px 20px;
+
+}
