@@ -25,5 +25,6 @@ All the technologies used in developing this website is free,saving the developm
 <strong>Try it out</strong>
 <br>
 <br>
- https://subsy-manager.vercel.app
+ https://subsy-manager.vercel.app 
+ <br>
  https://github.com/vamshi726/Subsy-Manager/
