@@ -1,4 +1,4 @@
-#Problem Statement
+<strong>Problem Statement</strong>
 Subsy Manager is a budget planner & expense tracker for our daily needs. The purpose of implementing a money management is to put you in complete control of your financial decisions, future savings goals and create a awesome lifestyle.
 
 #My Solution
