@@ -18,3 +18,10 @@
             location.replace("../transactions/index.html")
           });
 
+
+          
+
+          
+        document.getElementById("vidcon").addEventListener("click", function() {
+            location.replace("https://ckutk4k3s104389idk02vauokav-1f4e0gryf-vamshi726.vercel.app/create")
+          });
