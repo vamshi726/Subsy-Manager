@@ -1,7 +1,7 @@
 body{
 
 background-image: linear-gradient(to bottom, #bcb6d6, #a79ce2, #9081ed, #7366f6, #4b4bff);
-height: 100vh;
+height: 110vh;
 }
 
 .cpiller{
@@ -58,6 +58,32 @@ button{
     font-weight: 500;
     font-size: 16px;
     background-color: #411c99;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;         
+    padding: 10px 20px;
+
+}
+
+.videopng{
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+    margin-left: 80%;
+}
+
+#vidcon{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   
+    width: 100px;
+    height: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #1b6418;
     border: none;
     color: #ffffff;
     cursor: pointer;
